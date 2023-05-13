@@ -36,6 +36,10 @@ public class MathfRad2Deg : MonoBehaviour
 
         // prints true
         Debug.Log(Mathf.IsPowerOfTwo(32));
+
+        Debug.Log(Mathf.Max(1.2f, 2.4f));
+
+        Debug.Log(Mathf.Min(1.2f, 2.4f));
     }
 
     // Update is called once per frame
