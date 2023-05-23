@@ -1,11 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class SpehereController : MonoBehaviour
 {
     Rigidbody rb;
     float speed = 5;
+
+    public Text coinText;
+    public int coin;
     // Start is called before the first frame update
     void Start()
     {
@@ -26,5 +30,16 @@ public class SpehereController : MonoBehaviour
         Vector3 movement = new Vector3(X,0,Y);
 
         rb.AddForce(movement * speed);
+
+        coinText.text = "Gold : " + coin.ToString();
+    }
+
+    private void OnCollisionEnter(Collision other)
+    {
+        if (other.gameObject.CompareTag("Coin"))
+        {
+            Destroy(other.gameObject);
+            coin++;
+        }
     }
 }
