@@ -12,7 +12,7 @@ public class CoinController : MonoBehaviour
         {
             if (coin[i] != null)
             {
-                coin[i].transform.Rotate(0,0,90*Time.deltaTime);
+                coin[i].transform.Rotate(0, 0, 90 * Time.deltaTime);
             }
         }
     }

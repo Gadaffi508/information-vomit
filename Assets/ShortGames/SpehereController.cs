@@ -33,7 +33,6 @@ public class SpehereController : MonoBehaviour
 
         coinText.text = "Gold : " + coin.ToString();
     }
-
     private void OnCollisionEnter(Collision other)
     {
         if (other.gameObject.CompareTag("Coin"))
