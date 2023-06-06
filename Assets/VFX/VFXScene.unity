@@ -244,7 +244,6 @@ ParticleSystemRenderer:
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 2100000, guid: e60666f3bff187543aabaf98eb54e8bf, type: 2}
-  - {fileID: 2100000, guid: a9e0138d7270a6049aaa2d09d4eabffd, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4247,7 +4246,7 @@ ParticleSystem:
         m_RotationOrder: 4
     maxLights: 20
   TrailModule:
-    enabled: 1
+    enabled: 0
     mode: 0
     ratio: 1
     lifetime:
