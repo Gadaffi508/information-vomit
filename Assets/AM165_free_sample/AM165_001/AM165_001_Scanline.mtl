@@ -1,0 +1,52 @@
+# 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
+# File Created: 20.01.2015 12:51:37
+
+newmtl AM165_001_01_A
+	Ns 9.999999
+	Ni 1.500000
+	d 1.000000
+	Tr 0.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.588000 0.588000 0.588000
+	Kd 0.500000 0.500000 0.500000
+	Ks 0.000000 0.000000 0.000000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka Z:\Archmodels_165_postapo\Textures\AM165_001_color.jpg
+	map_Kd Z:\Archmodels_165_postapo\Textures\AM165_001_color.jpg
+	map_Ks Z:\Archmodels_165_postapo\Textures\AM165_001_spec.jpg
+	map_bump -bm 0.300000 Z:\Archmodels_165_postapo\Textures\AM165_001_bump_nm.JPG
+	bump -bm 0.300000 Z:\Archmodels_165_postapo\Textures\AM165_001_bump_nm.JPG
+
+newmtl AM165_001_chrome_A
+	Ns 9.999999
+	Ni 1.500000
+	d 1.000000
+	Tr 0.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.588000 0.588000 0.588000
+	Kd 0.500000 0.500000 0.500000
+	Ks 0.000000 0.000000 0.000000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka Z:\Archmodels_165_postapo\Textures\AM165_001_color.jpg
+	map_Kd Z:\Archmodels_165_postapo\Textures\AM165_001_color.jpg
+	map_Ks Z:\Archmodels_165_postapo\Textures\AM165_001_spec.jpg
+	map_bump -bm 0.300000 Z:\Archmodels_165_postapo\Textures\AM165_001_bump_nm.JPG
+	bump -bm 0.300000 Z:\Archmodels_165_postapo\Textures\AM165_001_bump_nm.JPG
+
+newmtl AM165_001_glass_A
+	Ns 9.999999
+	Ni 1.500000
+	d 1.000000
+	Tr 0.000000
+	Tf 1.000000 1.000000 1.000000 
+	illum 2
+	Ka 0.588000 0.588000 0.588000
+	Kd 0.500000 0.500000 0.500000
+	Ks 0.000000 0.000000 0.000000
+	Ke 0.000000 0.000000 0.000000
+	map_Ka Z:\Archmodels_165_postapo\Textures\AM165_001_color.jpg
+	map_Kd Z:\Archmodels_165_postapo\Textures\AM165_001_color.jpg
+	map_Ks Z:\Archmodels_165_postapo\Textures\AM165_001_spec.jpg
+	map_d Z:\Archmodels_165_postapo\Textures\AM165_001_alpha.jpg
